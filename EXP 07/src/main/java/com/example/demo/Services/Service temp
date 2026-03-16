@@ -1,0 +1,12 @@
+package com.example.demo.Services;
+
+import com.example.demo.dto.StudentDTO;
+import com.example.demo.entity.Student;
+import java.util.List;
+
+public interface StudentService {
+    Student createStudent(StudentDTO dto);
+    List<Student>getAllStudents();
+    List<Student>deleteById(int id);
+//    List<Student>updateById(int id);
+}
